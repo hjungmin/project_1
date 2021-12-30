@@ -7,6 +7,6 @@
 > > 저는
 > > > jungmin 입니다.
 
-*안녕
-  *hello
-    *hi
+* 안녕
+  * hello
+    * hi
