@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        font-size: 1rem;
+      }
+      ul {
+        background: lightblue;
+        width: 150px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li a {
+        display: block;
+        text-decoration: none;
+        color: #333;
+        padding: 8px;
+        text-align: center;
+        font-weight: bold;
+      }
+      li a.current {
+        background: cornflowerblue;
+        color: #fff;
+      }
+      li .current:hover {
+        background: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>링크를 사용한 리스트 메뉴</h1>
+    <ul>
+      <li><a href="www.naver.com">네이버</a></li>
+      <li><a class="current" href="www.daum.net">다음</a></li>
+      <li><a href="www.google.com">구글</a></li>
+    </ul>
+  </body>
+</html>
